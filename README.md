@@ -1,7 +1,10 @@
 # Graph Neural Network-Based Topic Model Integrating Probabilistic and Embedding Information of Words
 
-> **Master's Thesis** | Department of Data Science, Kyungpook National University | December 2025
-> **Author**: Soonwoo Kim | **Supervisor**: Prof. Suhyeon Kim
+> 🎓 **Master's Thesis (Dec 2025)**
+> - **Institution:** Department of Data Science, Kyungpook National University
+> - **Author:** Soonwoo Kim 
+> - **Supervisor:** Prof. Suhyeon Kim
+
 
 ---
 
@@ -47,7 +50,7 @@ The proposed pipeline consists of three stages:
 
 Evaluated on 1,015 Korean news articles (Jan 2023 – Feb 2025) from [BIG KINDS](https://www.bigkinds.or.kr), preprocessed to **2,597 keywords**.
 
-| Model | C<sub>w2v</sub> (↑) | C<sub>v</sub> (↑) | Modularity (↑) |
+| Model | C<sub>w2v</sub> | C<sub>v</sub> | Modularity |
 |---|---|---|---|
 | LDA | 0.5846 | 0.4391 | 0.1910 |
 | BERTopic | 0.6779 | 0.4754 | 0.2347 |
